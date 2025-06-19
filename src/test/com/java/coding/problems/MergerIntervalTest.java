@@ -12,7 +12,7 @@ public class MergerIntervalTest {
 
   @Test
   @Order(1)
-  @DisplayName("Count the digit in given array")
+  @DisplayName("Merge overlapping intervals")
   public void test_1() {
     // Given
     List<Interval> intervalList = getIntervals();
