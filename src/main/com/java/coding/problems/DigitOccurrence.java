@@ -1,8 +1,10 @@
-package com.java.coding.problems.digits.array;
+package com.java.coding.problems;
+
 
 import java.util.*;
 
 public class DigitOccurrence {
+
   public List<Integer> countDigitOccurrence(List<Integer> inputList) {
     List<Integer> digitList = new ArrayList<>();
     Map<Integer, Integer> count = new HashMap<>();

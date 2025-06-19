@@ -1,4 +1,4 @@
-package com.java.coding.problems.digits.array;
+package com.java.coding.problems;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
