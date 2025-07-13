@@ -26,7 +26,6 @@ public class FirstUniqueCharacter {
             .orElse('0'));
   }
 
-
   public List<Integer> firstUniqueElementIndex(String input) {
 
     Map<Character, Integer> map = new LinkedHashMap<>();

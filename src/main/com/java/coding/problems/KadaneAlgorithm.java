@@ -1,9 +1,9 @@
 package com.java.coding.problems;
 
+import static java.lang.Math.max;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.lang.Math.max;
 
 public class KadaneAlgorithm {
 
@@ -24,6 +24,7 @@ public class KadaneAlgorithm {
 
     int resStart = 0, resEnd = 0;
     int maxSum = inputList.getFirst();
+    List<Integer> res = new ArrayList<>();
 
     for (int i = 0; i < inputList.size(); i++) {
       int currSum = 0;
@@ -39,7 +40,6 @@ public class KadaneAlgorithm {
       }
     }
 
-    List<Integer> res = new ArrayList<>();
     for (int i = resStart; i <= resEnd; i++) res.add(inputList.get(i));
     return res;
   }

@@ -1,8 +1,8 @@
 package com.java.coding.problems;
 
-import java.util.*;
-
 import static java.lang.Math.max;
+
+import java.util.*;
 
 public class MergeIntervals {
 

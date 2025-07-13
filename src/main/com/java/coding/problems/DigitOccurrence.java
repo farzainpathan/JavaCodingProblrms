@@ -1,6 +1,5 @@
 package com.java.coding.problems;
 
-
 import java.util.*;
 
 public class DigitOccurrence {
