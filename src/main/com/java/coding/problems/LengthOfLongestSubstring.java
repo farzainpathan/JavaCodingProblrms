@@ -1,9 +1,9 @@
 package com.java.coding.problems;
 
+import static java.lang.Math.max;
+
 import java.util.HashSet;
 import java.util.Set;
-
-import static java.lang.Math.max;
 
 public class LengthOfLongestSubstring {
   public Integer longestSubstring(String input) {
